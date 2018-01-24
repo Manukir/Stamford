@@ -27,6 +27,49 @@ h1, h2, h3, h4, h5,
 .text-primary {
   color: #B42226 !important; }
 
+.descripcion {
+  color: black;
+  font-size: 20px; }
+  @media screen and (max-width: 768px) {
+    .descripcion {
+      font-size: 10px; } }
+
+.descripcion2 {
+  color: black;
+  font-size: 15px; }
+  @media screen and (max-width: 768px) {
+    .descripcion2 {
+      font-size: 10px; } }
+
+.descripcion3 {
+  color: black;
+  font-size: 15px; }
+  @media screen and (max-width: 768px) {
+    .descripcion3 {
+      font-size: 10px; } }
+  .descripcion3 h4 {
+    color: #B42226;
+    text-transform: uppercase;
+    font-size: 18px; }
+  .descripcion3 h1 {
+    color: #B42226;
+    font-size: 100px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0.9em; }
+  .descripcion3 p {
+    padding-left: 5px; }
+
+.descripcion4 {
+  color: black;
+  font-size: 17px; }
+  @media screen and (max-width: 768px) {
+    .descripcion4 {
+      font-size: 10px; } }
+
+b {
+  color: #B42226; }
+
 .ftco-navbar-light {
   background: transparent !important;
   position: absolute;
@@ -119,6 +162,9 @@ h1, h2, h3, h4, h5,
       transition: .3s all ease-out; }
     .ftco-navbar-light.scrolled .navbar-brand {
       color: #4B393C; }
+
+.p-3 {
+  min-height: 210px; }
 
 .navbar-brand {
   letter-spacing: .1em; }
