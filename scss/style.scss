@@ -510,15 +510,60 @@ textarea {
 		}
 	}
 }
-.ftco-media {
-	background-image: url("../images/producto1.png");
+.ftco-media-1 {
+	background-image: url("../images/sunscreen_producto.jpeg");
 	background-size:cover;
 	min-height: 300px;
+	max-height: 300px;
 	&.text-center {
 		.ftco-icon {
 			margin: 0 auto;
 		}
 	}
+}
+
+.ftco-media-2 {
+	background-image: url("../images/black_out.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	min-height: 300px;
+	max-height: 300px;
+	&.text-center {
+		.ftco-icon {
+			margin: 0 auto;
+		}
+	}
+}
+
+.ftco-media-3 {
+	background-image: url("../images/sistema_doble.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 300px;
+	max-height: 300px;
+	&.text-center {
+		.ftco-icon {
+			margin: 0 auto;
+		}
+	}
+}
+.ftco-media-4 {
+	background-image: url("../images/automatizacion.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 20%;
+	min-height: 300px;
+	max-height: 300px;
+	&.text-center {
+		.ftco-icon {
+			margin: 0 auto;
+		}
+	}
+}
+
+.image-product {
+	max-height:250px;
 }
 .media-body {
 	color:white;
