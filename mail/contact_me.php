@@ -21,7 +21,7 @@ $phone = strip_tags(htmlspecialchars($_POST['phone']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
    
 // Create the email and send the message
-$to = 'info@hospedanos.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+$to = 'info@stamford.com.ar'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $email_subject = "Recibiste un mail de la web de parte de:  $name $lastname";
 $email_body = "Recibieron un nuevo mensaje desde la web del formulario de contacto.\n\n"."Aquí los detalles:\n\n Nombre: $name\n\n Apellido:$lastname\n\n Email: $email_address\n\nTelefono: $phone\n\n Trabajo: $work\n\n Ciudad: $city\n\nMensaje:\n$message";
 $headers = "From: noreply@stamford.com.ar\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
