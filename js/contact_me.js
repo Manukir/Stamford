@@ -12,6 +12,8 @@ $(function() {
             var lastname = $("input#lastname").val();
             var email = $("input#email").val();
             var phone = $("input#phone").val();
+            var work = $("select#work").val();
+            var city = $("input#city").val();
             var message = $("textarea#message").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
@@ -25,7 +27,9 @@ $(function() {
                     name: name,
                     lastname: lastname,
                     phone: phone,
+                    work: work,
                     email: email,
+                    city: city,
                     message: message
                 },
                 cache: false,
