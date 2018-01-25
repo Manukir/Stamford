@@ -15,8 +15,8 @@ if(empty($_POST['name'])      ||
 $name = strip_tags(htmlspecialchars($_POST['name']));
 $lastname = strip_tags(htmlspecialchars($_POST['lastname']));
 $email_address = strip_tags(htmlspecialchars($_POST['email']));
-$work = strip_tags(htmlspecialchars($POST)['work']);
-$city = strip_tags(htmlspecialchars($POST)['city']);
+$work = strip_tags(htmlspecialchars($_POST)['work']);
+$city = strip_tags(htmlspecialchars($_POST)['city']);
 $phone = strip_tags(htmlspecialchars($_POST['phone']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
    
