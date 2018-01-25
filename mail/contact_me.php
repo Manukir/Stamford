@@ -4,6 +4,7 @@ if(empty($_POST['name'])      ||
    empty($_POST['lastname'])  ||
    empty($_POST['email'])     ||
    empty($_POST['phone'])     ||
+   empty($_POST['city'])      ||
    empty($_POST['message'])   ||
    !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
    {
