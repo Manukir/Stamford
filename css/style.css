@@ -334,10 +334,6 @@ textarea {
   .ftco-section.ftco-slant,
   .ftco-footer.ftco-slant {
     padding: 7em 0 22em 0; }
-  .ftco-section p,
-  .ftco-footer p {
-    padding-top: 20%;
-    padding-right: 10%; }
   .ftco-section .ftco-heading,
   .ftco-footer .ftco-heading {
     font-size: 40px;
@@ -362,6 +358,9 @@ textarea {
     font-weight: normal; }
   .ftco-footer p {
     color: rgba(255, 255, 255, 0.3); }
+  .ftco-footer .phone {
+    padding-right: 10%;
+    padding-top: 20%; }
   .ftco-footer a {
     color: rgba(255, 255, 255, 0.3); }
     .ftco-footer a:hover {

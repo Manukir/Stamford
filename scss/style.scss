@@ -427,10 +427,6 @@ textarea {
 	&.ftco-slant {
 		padding: 7em 0 22em 0;
 	}
-	p {
-		padding-top:20%;
-		padding-right:10%;
-	}
 
 	.ftco-heading {
 		font-size: 40px;
@@ -462,6 +458,11 @@ textarea {
 	p {
 		color: rgba($white, .3);
 	}
+	.phone {
+		padding-right: 10%;
+		padding-top: 20%;
+	}
+
 	a {
 		color: rgba($white, .3);
 		&:hover {
